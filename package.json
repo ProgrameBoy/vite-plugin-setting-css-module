@@ -5,10 +5,10 @@
   "types": "dist/index.d.ts",
   "author": "programBoy",
   "license": "UNLICENSED",
-  "homepage": "https://gitee.com/my_domain/vite-plugin-setting-css-module",
+  "homepage": "https://github.com/ProgrameBoy/vite-plugin-setting-css-module",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/my_domain/vite-plugin-setting-css-module"
+    "url": "https://github.com/ProgrameBoy/vite-plugin-setting-css-module"
   },
   "files": [
     "dist"
