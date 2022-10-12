@@ -1,0 +1,18 @@
+# Other files and folders
+.settings/
+src/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+yarn.*
+.gitignore
+node_modules
+gulp.config.js
+gulp.tsconfig.json

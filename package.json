@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-setting-css-module",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "programBoy",
+  "license": "UNLICENSED",
+  "homepage": "https://gitee.com/my_domain/vite-plugin-setting-css-module",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/my_domain/vite-plugin-setting-css-module"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "react",
+    "css",
+    "css-module",
+    "vite-plugin-setting-css-modules"
+  ],
+  "scripts": {
+    "v": "tsToJs -V",
+    "build": "tsToJs build"
+  },
+  "devDependencies": {
+    "@wz-libs/ts-to-js": "^1.0.1"
+  }
+}
