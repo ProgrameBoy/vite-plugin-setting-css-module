@@ -29,7 +29,7 @@ export default defineConfig({
 })
 ```
 
-## Option
+## Options
 - `include`(RegExp|Function) - Custom modular files.   
 Example: `/*.scss/` Or `function (fileName) { return fileName.endsWith('scss') }`
 
