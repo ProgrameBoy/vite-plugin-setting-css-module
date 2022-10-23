@@ -1,4 +1,4 @@
-import { TransFormFunction, TransFormFunctionQuery, QueryType } from './type';
+import type { TransFormFunction, TransFormFunctionQuery, QueryType } from './type';
 
 const urlLang: string = `(#.*)|(\\?.*)$`;
 const viteCssModuleMatchRule = '.module';
