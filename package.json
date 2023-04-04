@@ -37,6 +37,6 @@
     "build": "yarn clean && yarn build:js && yarn build:mjs"
   },
   "devDependencies": {
-    "@wz-libs/ts-to-js": "^1.0.2"
+    "@wz-libs/ts-to-js": "1.0.2"
   }
 }
