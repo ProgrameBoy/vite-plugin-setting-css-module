@@ -12,3 +12,4 @@
 # information for Eclipse / Flash Builder.
 node_modules
 dist
+lib

@@ -3,14 +3,14 @@
   "version": "1.1.2",
   "author": "programBoy",
   "license": "UNLICENSED",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "module": "dist/index.mjs",
+  "types": "lib/types/index.d.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "types": "./lib/types/index.d.ts",
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js"
     }
   },
   "homepage": "https://github.com/ProgrameBoy/vite-plugin-setting-css-module",
@@ -18,8 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/ProgrameBoy/vite-plugin-setting-css-module.git"
   },
+  "directories": {
+    "lib": "lib"
+  },
   "files": [
-    "dist"
+    "lib",
+    "package.json",
+    "README.md",
+    "README.en.md"
   ],
   "keywords": [
     "vite",
@@ -27,16 +33,14 @@
     "react",
     "css",
     "css-module",
-    "vite-plugin-setting-css-modules"
+    "vite-plugin-setting-css-module"
   ],
   "scripts": {
-    "v": "tsToJs -V",
     "clean": "tsToJs clean",
     "build:js": "tsToJs build",
-    "build:mjs": "tsToJs mjs",
-    "build": "yarn clean && yarn build:js && yarn build:mjs"
+    "build": "yarn clean && yarn build:js"
   },
   "devDependencies": {
-    "@wz-libs/ts-to-js": "^1.0.2"
+    "@wz-libs/ts-to-js": "^1.1.0"
   }
 }

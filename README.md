@@ -36,7 +36,6 @@ Example: `/*.scss/` Or `function (fileName) { return fileName.endsWith('scss') }
 - `exclude`(RegExp|Function) - Custom excluded modular css files.  
 Example:`/*.global.scss/` Or `function (fileName) { return fileName.includes('.global.scss') }`
 
-
 ```typescript
 
 // Or add modularity tags when referenced, for example, in the index.js file
